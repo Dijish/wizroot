@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2b2vfm');
+  src:  url('fonts/icomoon.eot?2b2vfm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2b2vfm') format('truetype'),
+    url('fonts/icomoon.woff?2b2vfm') format('woff'),
+    url('fonts/icomoon.svg?2b2vfm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin makeIcon($arg, $val) {
+  .ion-ios-#{$arg}:before ,
+  .ion-ios-#{$arg}-circle:before ,
+  .ion-ios-#{$arg}-circle-outline:before ,
+  .ion-ios-#{$arg}-outline:before ,
+  .ion-md-#{$arg}:before ,
+  .ion-md-#{$arg}-circle:before ,
+  .ion-md-#{$arg}-circle-outline:before ,
+  .ion-md-#{$arg}-outline:before  {
+    content: $val;
+    font-size: 26px;
+  }
+}
+
+@include makeIcon(icon-droplet, '\e90b');
+@include makeIcon(icon-paint-format, '\e90c');
+@include makeIcon(icon-equalizer, '\e992');
+@include makeIcon(icon-fire, '\e9a9');
+@include makeIcon(icon-power, '\e9b5');
+@include makeIcon(icon-connection, '\e91b');
+@include makeIcon(icon-paint-format, '\e90c');
+@include makeIcon(icon-eye, '\e900');
+@include makeIcon(icon-star-empty, '\e9d7');
+@include makeIcon(icon-bubble2, '\e96e');
+@include makeIcon(icon-cogs, '\e901');

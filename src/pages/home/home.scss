@@ -1,0 +1,143 @@
+
+
+
+
+page-home {
+    ion-icon.icon.icon-md.ion-md-icon-equalizer {
+        color : white;
+        opacity: 1;
+    }
+
+    ion-buttons.nav-btn.bar-buttons.bar-buttons-md {
+        margin: -33px -9px -6px;
+        background: #f5a623;
+        border-radius: 9px;
+        padding: 14px;
+        height: 90px;
+    }
+
+    button.disable-hover.bar-button.bar-button-md.bar-button-default.bar-button-default-md.bar-button-md-secondary {
+        padding-top: 45px;
+    }
+
+    .toolbar-background-md {
+        border-color: #53416b;
+        background: #313967;
+        //background: #5869ca
+
+    }
+
+    .toolbar-title-md {
+        color: white;
+    }
+
+    .content-md {
+        background-color: #313967;
+        color: white;
+    }
+
+    .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+        background-image: none;
+    }
+
+    hr.line1 {
+        color: white;
+        height: 3px;
+        width: 10%;
+        /* left: 15%; */
+        margin-left: 62%;
+        background-color: white;
+        margin-bottom: 0px;
+    }
+
+    hr.line2 {
+        color: white;
+        background-color: white;
+        margin-top: 9px;
+        width: 66%;
+        margin-left: 5%;
+        /* margin-top: 7%; */
+        margin-bottom: -8px;
+        opacity: 0.3;
+    }
+
+    ion-title.title.title-md {
+        padding: 10px;
+    }
+
+    .year {
+        opacity: 0.3;
+        padding-top: 10px;
+    }
+
+    .month {
+        font-size: 16px;
+    }
+
+    ion-col.dollar.col {
+        font-size: 35px;
+        text-align: right;
+    }
+
+    ion-col.contents.col {
+        background-color: #595379;
+        padding: 20px 0px 10px 20px;
+        border-radius: 24px
+    }
+    hr.quantity {
+        margin-left: 0px;
+        height: 4px;
+        border-radius: 16px;
+        /* padding-bottom: 1px; */
+        margin-bottom: 17px;
+    }
+    hr.water{
+        width: 76%;
+        background-color: #4296df;
+    }
+
+    .name {
+        padding-bottom: 7px;
+    }
+
+    b.value {
+        font-size: 25px;
+    }
+
+    span.unit {
+        font-size: 11px;
+        opacity: 0.5;
+    }
+
+    .icon {
+        text-align: right;
+        padding-right: 6px;
+        opacity: 0.7;
+    }
+
+    ion-col.col {
+        margin: 10px;
+    }
+
+    hr.heat{
+        width: 35%;
+        background-color: #e44bb7;
+    }
+
+    hr.electricity{
+        width: 60%;
+        background-color: #f5a623;
+    }
+
+    hr.internet{
+        width: 65%;
+        background-color: #3ebd62;
+    }
+
+    hr.renovation{
+        width: 15%;
+        background-color: white;
+    }
+
+
+}

@@ -1,0 +1,7 @@
+Light BG : #53416b
+Dark BG : #313967
+Button : #f5a623
+Water : #4296df
+Heating : #e44bb7
+Internet : #3ebd62
+contents : #595379
